@@ -9,7 +9,7 @@ function App() {
   
   const [keeperList,setkeeperList] = useState([]);
   useEffect(()=>{
-    axios.get('http://localhost:8000/api/getAll')
+    axios.get(`${window.location.origin}/api/getAll`)
     .then(res => setkeeperList(res.data));
 
   },[]);
