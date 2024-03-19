@@ -1,8 +1,13 @@
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  min-height: 800px;
+  /* background: linear-gradient( to bottom right, rgb(82, 171, 240) , rgb(114, 248, 185) ); */
+  background:linear-gradient(deeppink,purple);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,9 +16,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
